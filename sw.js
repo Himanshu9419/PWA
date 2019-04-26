@@ -5,10 +5,10 @@ var cacheName = 'js13kPWA-v1';
 
 // files to be cached
 var appShellFiles = [
-  '/pwa-examples/js13kpwa/',
-  '/pwa-examples/js13kpwa/index.html',
-  '/pwa-examples/js13kpwa/app.js',
-  '/pwa-examples/js13kpwa/style.css',
+  '/PWA/',
+  '/PWA/index.html',
+  '/PWA/app.js',
+  '/PWA/style.css',
 //   '/pwa-examples/js13kpwa/fonts/graduate.eot',
 //   '/pwa-examples/js13kpwa/fonts/graduate.ttf',
 //   '/pwa-examples/js13kpwa/fonts/graduate.woff',
