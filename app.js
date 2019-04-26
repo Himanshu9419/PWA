@@ -34,6 +34,7 @@ if('serviceWorker' in navigator) {
 //request permission to show notification
 var button = document.getElementById("notifications");
 button.addEventListener('click', function(e) {
+    navigator.serviceWorker.register('swDummy.js');
     Notification.requestPermission().then(function(result) {
         if(result === 'granted') {
             randomNotification();
