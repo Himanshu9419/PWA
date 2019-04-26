@@ -1,6 +1,6 @@
 // handling article
 var template = "<article>\n\
-    <img src='https://github.com/mdn/pwa-examples/tree/master/js13kpwa/data/img/SLUG.jpg?raw=true' alt='NAME'>\n\
+    <img src='https://raw.githubusercontent.com/mdn/pwa-examples/master/js13kpwa/data/img/SLUG.jpg?raw=true' alt='NAME'>\n\
     <h3>#POS. NAME</h3>\n\
     <ul>\n\
     <li><span>Author:</span> <strong>AUTHOR</strong></li>\n\
