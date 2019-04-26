@@ -14,7 +14,7 @@
             "type": "image/png"
         }
     ],
-    "start_url": "https://himanshu9419.github.io/PWA/index.html",
+    "start_url": "/index.html",
     "display": "standalone",
     "theme_color": "#B12A34",
     "background_color": "#B12A34"
