@@ -48,7 +48,7 @@ function randomNotification() {
     var randomItem = Math.floor(Math.random()*games.length);
     var notifTitle = games[randomItem].name;
     var notifBody = 'Created by '+games[randomItem].author+'.';
-    var notifImg = 'data/img/'+games[randomItem].slug+'.jpg';
+    var notifImg = 'https://raw.githubusercontent.com/mdn/pwa-examples/master/js13kpwa/data/img/'+games[randomItem].slug+'.jpg';
     var options = {
         body: notifBody,
         icon: notifImg
