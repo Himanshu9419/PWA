@@ -55,7 +55,7 @@ function randomNotification() {
     }
     //var notif = new Notification(notifTitle, options);
     navigator.serviceWorker.ready.then(function(registration) {
-      registration.showNotification('Notification with ServiceWorker');
+      registration.showNotification(notifTitle, options);
     });
     setTimeout(randomNotification, 30000);
 }
