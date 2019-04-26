@@ -26,7 +26,7 @@ var appShellFiles = [
 ];
 var gamesImages = [];
 for(var i=0; i<games.length; i++) {
-  gamesImages.push('data/img/'+games[i].slug+'.jpg');
+  gamesImages.push('https://raw.githubusercontent.com/mdn/pwa-examples/master/js13kpwa/data/img/'+games[i].slug+'.jpg?raw=true');
 }
 var contentToCache = appShellFiles.concat(gamesImages);
 
@@ -62,7 +62,7 @@ self.addEventListener('fetch', function(e) {
   // new cache name
 newCacheName = 'js13kPWA-v2';
 // update cache 
-contentToCache.push('/pwa-examples/js13kpwa/icons/icon-32.png');
+contentToCache.push('https://raw.githubusercontent.com/mdn/pwa-examples/master/js13kpwa/icons/icon-32.png');
 self.addEventListener('install', function(e) {
   e.waitUntil(
     caches.open(newCacheName).then(function(cache) {
