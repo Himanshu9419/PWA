@@ -27,7 +27,7 @@ document.getElementById('content').innerHTML = content;
 
 //register a service worker
 if('serviceWorker' in navigator) {
-    navigator.serviceWorker.register('/pwa-examples/js13kpwa/sw.js');
+    navigator.serviceWorker.register('/PWA/sw.js');
 };
 
 
